@@ -6,6 +6,6 @@ build:
 run:
 	python CpmCalculationService.py
 test:
-	pytest
+	python -m pytest -v
 clean:
 	rm -rf __pycache__
