@@ -1,0 +1,6 @@
+version: '2'
+services:
+  budowanie:
+    image: michonszy/cpmbudowanie
+  testy:
+    image: michonszy/cpmtesty
